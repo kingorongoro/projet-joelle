@@ -11,8 +11,8 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 """
 
 import os
-import django_heroku
-import dj_database_url
+
+
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -97,7 +97,7 @@ DATABASES = {
         'NAME': 'bloodbankdb',
         'USER': 'joelle',
         'PASSWORD': 'password',
-        'HOST': 'localhost',
+       
         
    }
 }
@@ -167,4 +167,4 @@ EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 LOGIN_REDIRECT_URL = '/'
 
-django_heroku.settings(locals())
+
