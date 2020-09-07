@@ -27,7 +27,7 @@ SECRET_KEY = '6!jds3@!t5yku9*wxk70qk7cidj2jk^7phs5mqh!&9v1gmnrs6'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['bloodbankjoel.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['https://bloodbankjoel.herokuapp.com/', '127.0.0.1']
 
 
 # Application definition
