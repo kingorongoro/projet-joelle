@@ -167,4 +167,4 @@ EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 LOGIN_REDIRECT_URL = '/'
 
-django_heroku.settings(locals(), logging=False)
+django_heroku.settings(locals())
